@@ -2,6 +2,10 @@
     background-color:rgb(44,62,80)!important;
 }
 
+.bg-celestino {
+    background-color: rgb(26,188,156);
+}
+
 .navbar-toggler {
     color: white;
     border: 2px solid white;
@@ -25,9 +29,14 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-
-
 }
+
+
+.short-line {
+    height: 5px;
+    width: 100%;
+}
+
 
 @media screen and (min-width:768px) {
     .navbar-toggler-icon,
