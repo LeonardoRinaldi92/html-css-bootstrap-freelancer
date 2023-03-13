@@ -37,6 +37,18 @@
     width: 100%;
 }
 
+#contact-me .form-control {
+border: 0px transparent;
+border-bottom: 0.1px solid grey;
+border-radius: 0;
+opacity: 0.3;
+}
+
+#contact-me .btn-primary {
+    border-color: transparent;
+}
+
+
 
 @media screen and (min-width:768px) {
     .navbar-toggler-icon,
