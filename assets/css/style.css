@@ -1,0 +1,45 @@
+.bg-blu-scuro {
+    background-color:rgb(44,62,80)!important;
+}
+
+.navbar-toggler {
+    color: white;
+    border: 2px solid white;
+}
+
+.navbar-toggler-icon {
+    filter:brightness(8);
+}
+
+#navbar .list-group {
+    display: none;
+}
+
+#navbar .list-group-item {
+    background-color:transparent;
+    border: 0;
+    padding: 0 0.5rem;
+}
+
+#navbar .list-group-item a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .navbar-toggler-icon,
+    .navbar-toggler
+    {
+        display: none;
+    }
+
+    #navbar .list-group {
+        display: flex;
+    }
+
+    
+
+}
