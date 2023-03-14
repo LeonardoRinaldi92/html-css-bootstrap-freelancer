@@ -2,9 +2,19 @@
     background-color:rgb(44,62,80)!important;
 }
 
+.bg-bluchiaro {
+    background-color:rgb(58,84,109);
+}
+
 .bg-celestino {
     background-color: rgb(26,188,156);
 }
+
+.celestino {
+    color: rgb(26,188,156);
+}
+
+
 
 .navbar-toggler {
     color: white;
@@ -48,6 +58,12 @@ opacity: 0.3;
     border-color: transparent;
 }
 
+#location .rounded-circle {
+    height: 2rem;
+    aspect-ratio: 1;
+    text-align: center;
+    line-height: 2rem;
+}
 
 
 @media screen and (min-width:768px) {
