@@ -77,6 +77,19 @@ opacity: 0.3;
         display: flex;
     }
 
-    
+    #location .rounded-circle {
+        height: 2.5rem;
+        aspect-ratio: 1;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+}
 
+@media screen and (min-width:1024px) {
+    #location .rounded-circle {
+        height: 3rem;
+        aspect-ratio: 1;
+        text-align: center;
+        line-height: 3rem;
+    }
 }
