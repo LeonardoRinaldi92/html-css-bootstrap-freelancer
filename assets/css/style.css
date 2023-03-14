@@ -1,3 +1,13 @@
+*{
+    scroll-behavior: smooth;
+}
+
+a { 
+    color: inherit; 
+} 
+
+
+
 .bg-blu-scuro {
     background-color:rgb(44,62,80)!important;
 }
@@ -79,6 +89,9 @@ opacity: 0.3;
     line-height: 2rem;
 }
 
+.pointer  {
+    cursor: pointer;
+}
 
 @media screen and (min-width:768px) {
     .navbar-toggler-icon,
