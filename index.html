@@ -1,173 +1,139 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Bootstrap demo</title>
-  </head>
-  <body>
-    <header>
-      <nav id="navbar" class="bg-blu-scuro py-3">
-        <div class="container-sm">
-          <div class="navbar navbar-expand-lg">
-            <div class="container-fluid bg-blu-scuro">
-              <a class="navbar-brand text" href="#">
-                <h3 class="text-white">
-                  START BOOTSTRAP
-                </h3>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                </span>
-              </button>
-              <ul class="list-group list-group-horizontal">
-                <li class="list-group-item">
-                  <a href="#">
-                    <h6>
-                      portofolio
-                    </h6>
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">
-                    <h6>
-                      about
-                    </h6>
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">
-                    <h6>
-                      contact
-                    </h6>
-                  </a>
-                </li>
-              </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Bootstrap demo</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="bg-blu-scuro py-3">
+      <div class="container-sm">
+        <div class="navbar navbar-expand-lg">
+          <div class="container-fluid bg-blu-scuro">
+            <a class="navbar-brand text" href="#">
+              <h3 class="text-white">
+                START BOOTSTRAP
+              </h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+              </span>
+            </button>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a href="#">
+                  <h6>
+                    portofolio
+                  </h6>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">
+                  <h6>
+                    about
+                  </h6>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">
+                  <h6>
+                    contact
+                  </h6>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- sezione avatar -->
+    <section id="avatar-box" class="bg-celestino">
+      <div class="container py-3 py-md-5">
+        <div class="row justify-content-center  text-center text-white">
+          <img src="./assets/img/avatar.svg" class="w-50" alt="">
+          <h1 class="mt-3">
+            START BOOSTRAP
+          </h1>
+          <div class="star-line mx-4">
+            <i class="fa-solid fa-star fs-2"></i>
+          </div>
+          <h5 class="mt-3">
+            GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+          </h5>
+        </div>
+      </div>
+    </section>
+    <!-- sdezione portfolio -->
+    <section id="portfolio">
+      <div class="container py-3 py-md-5">
+        <div class="row text-center ">
+          <h3>
+            PORTFOLIO
+          </h3>
+          <div class="star-line">
+            <i class="fa-solid fa-star fs-2"></i>
+          </div>
+          <!-- sezione card con padding md e xl -->
+          <div class="row px-xl-5 mt-4">
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+              <img src="./assets/img/cabin.png" class="img-fluid rounded-4" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+              <img src="./assets/img/cake.png" class="img-fluid rounded-4" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+              <img src="./assets/img/circus.png" class="img-fluid rounded-4" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+              <img src="./assets/img/game.png" class="img-fluid rounded-4" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+              <img src="./assets/img/safe.png" class="img-fluid rounded-4" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 pb-4">
+              <img src="./assets/img/submarine.png" class="img-fluid rounded-4" alt="">
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section id="avatar-box" class="bg-celestino">
-        <div class="container-fluid py-3 py-md-5">
-          <div class="row justify-content-center text-white">
-            <div class="col-4 col-xl-3">
-              <img src="./assets/img/avatar.svg" class="img-fluid" alt="">
-            </div>
-            <div class="row text-center justify-content-center py-2 py-md-3">
-              <div class="col-10 row justify-content-center">
-                <h1>
-                START BOOSTRAP
-                </h1>
-              </div>
-            </div>
-            <div class="col-8 row justify-content-center text-white pb-2 pb-md-3">
-              <div class="col-10 col-md-8 col-xl-4">
-                <div class="row align-items-center justify-content-center">
-                  <div class="col-5">
-                    <div class="short-line bg-white"></div>
-                  </div>
-                  <div class="col-2 text-center">
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="col-5">
-                    <div class="short-line bg-white"></div>
-                  </div>                    
-                </div>
-              </div>
-            </div>
-            <div class="col12 text-center ">
-              <h5>
-                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-              </h5>
-            </div>
-          </div>
+      </div>
+    </section>
+    <!-- section about -->
+    <section id="about" class="bg-celestino">
+      <div class="container text-white text-center py-3 py-md-5">
+        <h3>
+          ABOUT
+        </h3>
+        <div class="star-line">
+          <i class="fa-solid fa-star fs-2"></i>
         </div>
-      </section>
-      <section id="portfolio">
-        <div class="container-sm py-5 p-md-3 p-xl-5">
-          <div class="row">
-            <div class="col-12 text-center">
-              <div class="row justify-content-center text py-2 py-md-3">
-                <h3>
-                  PORTFOLIO
-                </h3>
-                <div class="col-8 row justify-content-center pb-2 pb-md-3">
-                  <div class="col-10 col-md-8 col-xl-4 py-2 py-md-3">
-                    <div class="row justify-content-center align-items-center">
-                      <div class="col-5">
-                        <div class="short-line bg-black"></div>
-                      </div>
-                      <div class="col-2 text-center">
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                      <div class="col-5">
-                        <div class="short-line bg-black"></div>
-                      </div>                    
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-md-6 col-xl-4 pb-4">
-                  <img src="./assets/img/cabin.png" class="img-fluid rounded-4" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 pb-4">
-                  <img src="./assets/img/cake.png" class="img-fluid rounded-4" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 pb-4">
-                  <img src="./assets/img/circus.png" class="img-fluid rounded-4" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 pb-4">
-                  <img src="./assets/img/game.png" class="img-fluid rounded-4" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 pb-4">
-                  <img src="./assets/img/safe.png" class="img-fluid rounded-4" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 pb-4">
-                  <img src="./assets/img/submarine.png" class="img-fluid rounded-4" alt="">
-                </div>
-              </div>
-            </div>
-          </div>    
-        </div>
-      </section>
-      <section id="about" class="bg-celestino">
-        <div class="container-sm text-white py-5 p-md-3 p-xl-5">
-          <div class="row justify-content-center py-2 py-md-3">
-            <h3 class="text-center">
-              ABOUT
-            </h3>
-            <div class="col-7 row justify-content-center pb-2 pb-md-3">
-              <div class="col-10 col-md-8 col-xl-4 py-2 py-md-3">
-                <div class="row justify-content-center align-items-center">
-                  <div class="col-5">
-                    <div class="short-line bg-white"></div>
-                  </div>
-                  <div class="col-2 text-center">
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="col-5">
-                    <div class="short-line bg-white"></div>
-                  </div>                    
-                </div>
-              </div>
-            </div>
+        <!-- testo centrale con col 8  -->
+        <div class="row justify-content-center mt-5">
           <div class="col-8">
             <div class="row">
               <div class="col-12 col-md-6">
-                <p class="fs-4">
+                <p class="fs-5">
                   Freelancer is a free bootstrap theme created by Start Bootstrap.
-                  The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy costomizzation.
+                  The download includes the complete source files including HTML, CSS and JavaScript as well as optional
+                  LESS stylesheets for easy costomizzation.
                 </p>
               </div>
               <div class="col-12 col-md-6">
-                <p class="fs-4">
-                  Wheter you're a student looking ti showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfetct starting point!
+                <p class="fs-5">
+                  Wheter you're a student looking ti showcase your work, a professional looking to attract clients, or a
+                  graphic artist looking to share your projects, this template is the perfetct starting point!
                 </p>
               </div>
               <div class="col-12 text-center">
@@ -179,133 +145,111 @@
             </div>
           </div>
         </div>
-      </section>
-      <section id="contact-me">       
-        <div class="container-sm  py-5 p-md-3 p-xl-5">
-          <div class="row justify-content-center py-2 py-md-3">
-            <h3 class="text-center">
-              CONTACT ME
-            </h3>
-            <div class="col-7 row justify-content-center pb-2 pb-md-3">
-              <div class="col-10 col-md-8 col-xl-4 py-2 py-md-3">
-                <div class="row justify-content-center align-items-center">
-                  <div class="col-5">
-                    <div class="short-line bg-black"></div>
-                  </div>
-                  <div class="col-2 text-center">
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="col-5">
-                    <div class="short-line bg-black"></div>
-                  </div>                    
-                </div>
-              </div>
-            </div>
-          <div class="col-8">
+    </section>
+    <!-- zezione cotact me -->
+    <section id="contact-me">
+      <div class="container text-center py-3 py-md-5">
+        <h3>
+          CONTACT ME
+        </h3>
+        <div class="star-line">
+          <i class="fa-solid fa-star fs-2"></i>
+        </div>
+        <!-- contenitore x il form -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-8 text-start">
             <form>
               <div class="mb-3">
                 <label for="Name" class="form-label fs-4">Name</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  aria-describedby="emailHelp"
-                />
+                <input type="email" class="form-control" aria-describedby="emailHelp" />
               </div>
-        
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label fs-4">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  aria-describedby="emailHelp"
-                />
+                <input type="email" class="form-control" aria-describedby="emailHelp" />
               </div>
-        
               <div class="mb-3">
                 <label for="Phonenumber" class="form-label fs-4">Phone number</label>
-                <input
-                  type="email"
-                  class="form-control"
-                />
+                <input type="email" class="form-control" />
               </div>
-        
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label fs-4">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <button type="submit" class="btn btn-primary bg-celestino fs-4">Send</button>
-            </form> 
-          </div>
-        </div>     
-      </section>
-      <section id="location" class="bg-bluchiaro">
-        <div class="container-sm text-white py-5 p-5">
-          
-          <div class="row text-white">
-            <div class="col-12 col-md-4 text-center">
-              <h5>
-                LOCATION
-              </h5> 
-              <h5>
-                2215 John Daniel Driv Clark, MO 54243
-              </h5>
-            </div>
-
-
-            <div class="col-12 col-md-4 text-center">
-              <h5>
-                AROUND THE WEB
-              </h5>
-              <div class="row justify-content-center gap-sm-2 gap-md-0">
-                <div class="col-1 col-md-3 col-xl-2">
-                  <div class="border border-white rounded-circle">
-                    <i class="fa-brands fa-facebook-f "></i>
-                  </div>                    
-                </div>
-                <div class="col-1 col-md-3 col-xl-2">
-                  <div class="border border-white rounded-circle">
-                    <i class="fa-brands fa-google-plus-g"></i>
-                  </div>                    
-                </div>
-                <div class="col-1 col-md-3 col-xl-2">
-                  <div class="border border-white rounded-circle">
-                    <i class="fa-brands fa-twitter"></i>
-                  </div>                    
-                </div>
-                <div class="col-1 col-md-3 col-xl-2">
-                  <div class="border border-white rounded-circle">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </div>                    
-                </div>
-              </div>
-
-            </div>
-            
-
-            <div class="col-12 col-md-4 text-center">
-              <h5>
-                ABOUT FREELANCER
-              </h5> 
-              <h5>
-                Freelance is a free to use, open source Bootstrap theme created by 
-                <span class="celestino">
-                  Start Bootstrap
-                </span>
-              </h5>
-            </div>
+            </form>
           </div>
         </div>
-      </section>
-      <footer>
-        <section id="copyright" class="bg-blu-scuro">       
-          <div class="container  py-5 p-md-3 p-xl-5 text-center text-white">
-            <p class="mt-4">
-              Copiright &copy; Your Website 2019
-            </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!-- sezione indirizzi -->
+    <section id="location" class="bg-bluchiaro">
+      <div class="container-sm text-white py-5 p-5">
+        <div class="row text-white">
+          <!-- primo scomparto -->
+          <div class="col-12 col-md-4 text-center mt-4 mt-md-0">
+            <h5>
+              LOCATION
+            </h5>
+            <h5>
+              2215 John Daniel Driv Clark, MO 54243
+            </h5>
           </div>
-        </section>
-      </footer>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+          <!-- secondo scomparto -->
+          <div class="col-12 col-md-4 text-center mt-4 mt-md-0">
+            <h5>
+              AROUND THE WEB
+            </h5>
+            <div class="row justify-content-center gap-sm-2 gap-md-0">
+              <div class="col-1 col-md-3 col-xl-2">
+                <div class="border border-white rounded-circle">
+                  <i class="fa-brands fa-facebook-f "></i>
+                </div>
+              </div>
+              <div class="col-1 col-md-3 col-xl-2">
+                <div class="border border-white rounded-circle">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+              </div>
+              <div class="col-1 col-md-3 col-xl-2">
+                <div class="border border-white rounded-circle">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+              <div class="col-1 col-md-3 col-xl-2">
+                <div class="border border-white rounded-circle">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- terzo scomparto -->
+          <div class="col-12 col-md-4 text-center mt-4 mt-md-0">
+            <h5>
+              ABOUT FREELANCER
+            </h5>
+            <h5>
+              Freelance is a free to use, open source Bootstrap theme created by
+              <span class="celestino">
+                Start Bootstrap
+              </span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sezione copyright -->
+    <section id="copyright" class="bg-blu-scuro">
+      <div class="container  py-5 p-md-3 p-xl-5 text-center text-white">
+        <p class="mt-4">
+          Copiright &copy; Your Website 2019
+        </p>
+      </div>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
 </html>
